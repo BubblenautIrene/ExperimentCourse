@@ -1,0 +1,22 @@
+{
+  "name": "@ExperimentCourse11-example/bundled",
+  "version": "0.0.0",
+  "dependencies": {
+    "@ExperimentCourse11/core": "workspace:*",
+    "@ExperimentCourse11/dashboard": "workspace:*",
+    "@ExperimentCourse11/google-drive": "workspace:*",
+    "@ExperimentCourse11/instagram": "workspace:*",
+    "@ExperimentCourse11/tus": "workspace:*",
+    "@ExperimentCourse11/url": "workspace:*",
+    "@ExperimentCourse11/webcam": "workspace:*"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  }
+}
